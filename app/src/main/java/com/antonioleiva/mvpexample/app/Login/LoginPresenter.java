@@ -18,6 +18,9 @@
 
 package com.antonioleiva.mvpexample.app.Login;
 
+/**
+ * 负责界面的展示，将数据的流动抽象出来，让Activity 只负责页面的刷新工作
+ */
 public interface LoginPresenter {
     public void validateCredentials(String username, String password);
 }
